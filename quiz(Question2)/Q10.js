@@ -4,6 +4,7 @@
 // Example: normalize('20-05-2017') should return  
 // '20/05/2017'.
 
+//Ans: 
 function dateConvert(date){
   var result = date.replace('-', '/');
 
